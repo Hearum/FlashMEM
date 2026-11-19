@@ -1,0 +1,22 @@
+# Local environment
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+
+# Python caches and builds
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+/build/
+/dist/
+
+# Local benchmark artifacts
+/data/raw/
+/data/processed/
+/outputs/
+/checkpoints/
