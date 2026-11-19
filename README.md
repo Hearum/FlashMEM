@@ -4,7 +4,7 @@
 
 FlashMEM builds compact memory entries that point back to the original conversation. At query time, it retrieves relevant entries and uses their source links to recover details from short excerpts of the conversation. On the serving side, it reuses key–value (KV) states for recurring context to reduce repeated prefill.
 
-**Code release in preparation.** Installation and benchmark reproduction instructions will accompany the release.
+The [serving engine](serving/README.md) includes the modified SGLang runtime, a one-GPU server demo, and a benchmark for document KV reuse. The agent-side memory implementation is in preparation.
 
 ## How it works
 

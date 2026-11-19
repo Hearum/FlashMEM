@@ -1,0 +1,16 @@
+[
+  {
+    "messages": [
+      {"role": "user", "content": "Where can I collect my library reservation?"},
+      {"role": "assistant", "content": "Collect it at the main desk. Reservations are held for three days."},
+      {"role": "user", "content": "How long will the desk hold it?"}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Where can I collect my library reservation?"},
+      {"role": "assistant", "content": "Collect it at the main desk. Reservations are held for three days."},
+      {"role": "user", "content": "Which desk should I visit?"}
+    ]
+  }
+]
